@@ -3,20 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForRouting31", "demoForRouting31\demoForRouting31.csproj", "{10A3721F-DA42-44AF-ABFE-F4BDFC46189F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForRouting31", "demoForRouting31\demoForRouting31.csproj", "{10A3721F-DA42-44AF-ABFE-F4BDFC46189F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForSwagger31", "demoForSwagger31\demoForSwagger31.csproj", "{9E7B225B-336A-4810-A8BD-9F6FCB6655D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{10A3721F-DA42-44AF-ABFE-F4BDFC46189F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10A3721F-DA42-44AF-ABFE-F4BDFC46189F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A3721F-DA42-44AF-ABFE-F4BDFC46189F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A3721F-DA42-44AF-ABFE-F4BDFC46189F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7B225B-336A-4810-A8BD-9F6FCB6655D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7B225B-336A-4810-A8BD-9F6FCB6655D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7B225B-336A-4810-A8BD-9F6FCB6655D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7B225B-336A-4810-A8BD-9F6FCB6655D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A43D5F58-C051-4BC3-A685-DB4BE5644CFB}
 	EndGlobalSection
 EndGlobal
